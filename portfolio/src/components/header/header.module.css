@@ -1,0 +1,120 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    max-width: 100%;
+    height: 14vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #BCA20D;
+}
+.logo{
+    width: 100px;
+    margin: 0 auto 0 30px;
+}
+.logo p{
+    color: #BCA20D;
+    font-size: 32px;
+    text-align: center;
+    font-family: "inspiration", serif;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+    
+}
+.header ul{
+    width: 600px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header ul li, .sidebar ul li{
+    padding: 5px;
+    border-bottom: 1px solid #BCA20D;
+    font-family: "Ingrid Darling", serif;
+}
+.header ul li a, .sidebar ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.header ul li:hover, .sidebar ul li:hover{
+    background-color: #4C420A;
+    border-bottom: 1px solid white;
+}
+.blur { 
+    filter: blur(8px); 
+}
+.sidebar{
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgb(16, 14, 14);
+    display: none;
+    flex-direction: column;
+    opacity: 0.9;
+    box-shadow: -20px 0px 60px rgba(0, 0, 0, 0.8);
+}
+.sidebar ul{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.sidebar .logo{
+    margin: 0 auto 16px;
+    padding: 0 30px;
+    height: 14vh;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BCA20D;
+}
+.sidebar ul li{
+    padding: 10px 30px
+}
+.burgerMenu{
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.burgerMenu .fa-bars{
+    color: white;
+    font-size: 25px;
+    width: 30px;
+}
+.closeButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.closeButton .fa-xmark{
+    color: rgb(118, 58, 5);
+    font-size: 30px;
+}
+@media (max-width:768px) {
+    .navBar .navLinks{
+        display: none;
+    }
+    .burgerMenu{
+        display: block;
+    }
+}
+@media (max-width:1190px){
+    .header ul{
+        margin-right: -30px;
+        width: 500px;
+    }
+}
+
