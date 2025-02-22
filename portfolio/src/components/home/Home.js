@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./home.module.css";
 
 import bannerImage from "../../images/pic-1.jpg";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -29,7 +30,9 @@ const Home = () => {
                 <div className={styles.portraitContainer}>
                     <img src={bannerImage} alt="Portrait of Rita Ayalew, web developer"/>
                 </div>
-                <button className={styles.callToActionBtn} onclick="window.location.href='./src/contact.html'">Get in Touch</button>
+                <Link to="contact">
+                    <button className={styles.callToActionBtn}>Get in Touch</button>
+                </Link>
             </div>
         </div>
     </div>

@@ -4,6 +4,7 @@ import styles from './projects.module.css';
 import pic1 from "../../images/project-1.png";
 import pic2 from "../../images/project-2.png";
 import pic3 from "../../images/project-3.png";
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -39,7 +40,9 @@ const Projects = () => {
         <section className={styles.collaboration}>
             <h2>Collaborate with Me</h2>
             <p>If you're excited about building innovative web solutions and think we could create something amazing together, let's connect. I'm always open to new projects and collaborations.</p>
-            <button className={styles.callToActionBtn} onClick={() => window.location.href='contact.html'}>Get in Touch</button>
+                <Link to="contact">
+                    <button className={styles.callToActionBtn}>Get in Touch</button>
+                </Link>
         </section>
     </div>
   );
