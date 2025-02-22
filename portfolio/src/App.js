@@ -6,6 +6,8 @@ import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import Services from './components/services/Services';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
 
         <Routes>
             <Route path='/about'  element={<About/>}/>
+            <Route path='/projects'  element={<Projects/>}/>
+            <Route path='/services'  element={<Services/>}/>
             <Route path='/'  element={<Home/>}/>
         </Routes>
 
