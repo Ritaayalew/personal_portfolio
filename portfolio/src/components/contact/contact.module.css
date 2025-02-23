@@ -1,3 +1,9 @@
+.black{
+    background-color: black;
+    margin: -60px;
+    padding: 50px; 
+}
+
 .small-box{
     background-color: #191918 ; 
     border: 1px solid #D8BA13;
@@ -97,6 +103,5 @@
     .main .contact{
         width: 370px;
         height: 360px;
-        background-color: #AA6B95; 
     }
 }

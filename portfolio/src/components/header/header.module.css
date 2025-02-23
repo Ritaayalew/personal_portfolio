@@ -1,20 +1,26 @@
+.mainHeader{
+    position: relative;
+}
 .header{
     position: sticky;
     top: 0;
     z-index: 20;
     max-width: 100%;
-    height: 14vh;
+    height: 12vh;
     background-color: black;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #BCA20D;
+    border-bottom: 1px solid #97820b;
+}
+.link{
+    text-decoration: none;
 }
 .logo{
     width: 100px;
     margin: 0 auto 0 30px;
 }
 .logo p{
-    color: #BCA20D;
+    color: rgb(213, 213, 213);
     font-size: 32px;
     text-align: center;
     font-family: "inspiration", serif;
@@ -22,7 +28,7 @@
 .navBar{
     display: flex;
     align-items: center;
-    margin-right: 55px;
+    margin-right: 68px;
     
 }
 .header ul{
@@ -34,10 +40,8 @@
 }
 .header ul li, .sidebar ul li{
     padding: 5px;
-    border-bottom: 1px solid #BCA20D;
+    border-bottom: 1px solid #847209;
     font-family: "Ingrid Darling", serif;
-}
-.header ul li a, .sidebar ul li a{
     font-size: 24px;
     text-decoration: none;
     color: white;
@@ -50,14 +54,14 @@
     filter: blur(8px); 
 }
 .sidebar{
+    position: fixed;
     width: 400px;
     height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 999;
+    z-index: 1004;
     background-color: rgb(16, 14, 14);
-    display: none;
     flex-direction: column;
     opacity: 0.9;
     box-shadow: -20px 0px 60px rgba(0, 0, 0, 0.8);
@@ -89,7 +93,7 @@
     border: none;
     cursor: pointer;
 }
-.burgerMenu .fa-bars{
+.burgerMenu .faBars{
     color: white;
     font-size: 25px;
     width: 30px;
@@ -99,10 +103,20 @@
     border: none;
     cursor: pointer;
 }
-.closeButton .fa-xmark{
-    color: rgb(118, 58, 5);
+.closeButton .faxmark{
+    color: rgb(84, 28, 2);
     font-size: 30px;
 }
+.backgroundOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    z-index: 999;
+  }
 @media (max-width:768px) {
     .navBar .navLinks{
         display: none;

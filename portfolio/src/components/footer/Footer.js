@@ -8,7 +8,7 @@ const Footer = () => {
             <p>
                 Feel free to reach out via 
                 <span>
-                    <a href="./src/contact.html" >Contact</a>
+                    <a href="./src/contact.html" > Contact</a>
                 </span>
             </p> 
             <p>© 2024 Rita Ayalew. All rights reserved.</p>

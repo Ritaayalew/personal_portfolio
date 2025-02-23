@@ -1,6 +1,6 @@
 .gridContainer h1, .gridContainer h2{
     font-family: "inspiration",serif;
-    color: rgb(207, 207, 207);
+    color: rgb(183, 183, 183);
     font-weight: 500;
 }
 .gridContainer img{
@@ -12,8 +12,8 @@
 .portraitContainer{
     margin: 10px auto 0;
     padding: 30px 0 0 15px;
-    width: 330px;
-    height:340px;
+    width: 300px;
+    height:310px;
     border-radius: 40%;
     overflow: hidden;
     display: flex;
@@ -21,11 +21,11 @@
     align-items: center;
 }
 .partitions{
-    padding: 32px 8px;
+    padding: 14px 8px;
 }
 .partitions h1{
     font-size: 64px;
-    margin:0 0 8px 48px; 
+    margin:0 0 7px 48px; 
 }
 .partitions h2{
     font-size: 32px;
@@ -34,67 +34,43 @@
 .stairStyle{          /* ensure a stair- style effect*/
     display: block;
     padding-left: 48px;
+    margin-top: -5px;
 }
 .gridContainer{
-    background-image: linear-gradient(-45deg, black 78%,  rgb(46, 46, 46), black);
+    /* background-image: linear-gradient(-45deg, black 78%,  rgb(46, 46, 46), black); */
+    background-color: black;
     padding: 32px 130px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     justify-content: center;
-    gap: 2px;
+    gap: 16px;
 }
 
 
 
 .partitions .icons{
     width: 80px;
-    margin: 64px auto 16px;
+    margin: 50px auto 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.icons .fab{
-    font-size: 22px;
+.icons .fabb{
+    font-size: 19px;
 }
-.icons .fa-linkedin{
+.icons .falinkedin{
     color: #3CA9C1;
 }
-.icons .fa-github{
+.icons .fagithub{
     color: #FFFFFF;
 }
-.icons .fa-instagram{
+.icons .fainstagram{
     color: #AA6B95;
 }
 
 
 .partitions p{
     margin: 0 40px 30px;
-    color: rgb(174, 174, 174);
+    color: rgb(183, 183, 183);
     text-align: center;
-}
-.partitions .callToActionBtn{
-    margin: 32px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 105px;
-    height: 30px;
-    background-color: #110F01;
-    color: #E3C103;
-    border: 1px solid #EFCE16;
-    border-radius: 10px;
-}
-.partitions .callToActionBtn:hover{
-    background-color: #DEBE0D;
-    color: black;
-    border: 1px solid black;
-}
-
-
-
-
-
-.callToActionBtn:focus{
-    border: none;
-    color: white;
 }

@@ -3,6 +3,7 @@ import styles from './contact.module.css';
 
 const Contact = () => {
   return (
+    <div className={styles.black}>
     <div className={styles.main}>
       <section className={styles['small-box']}>
         <h2>Reach out to me</h2>
@@ -41,6 +42,7 @@ const Contact = () => {
           </a>
         </div>
       </section>
+    </div>
     </div>
   );
 }

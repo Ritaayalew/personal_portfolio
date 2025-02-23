@@ -3,6 +3,7 @@ import styles from "./about.module.css";
 
 import pic1 from "../../images/pic-2.jpg";
 import pic2 from "../../images/pic-3.jpg";
+import Button from '../get-in-touch-btn/Button';
 
 const About = () => {
   return (
@@ -31,8 +32,8 @@ const About = () => {
             <div className={styles.circle}>
                 <h2>Let's Connect</h2>
                 <p>Diving into the tech world has armed me with a powerful mix of technical know-how and creativity! I love the opportunity to take on challenges with fresh ideas. Let's build something incredible together!</p>
+                <Button />
             </div>
-            <button className={styles.callToActionBtn} onclick="window.location.href='contact.html'">Get in Touch</button>
         </section>
         
     </div>
