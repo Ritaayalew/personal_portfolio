@@ -14,9 +14,9 @@
     justify-content: center;
 }
 .partitions h2{
-    font-family: "Irish Grover", serif;
-    font-weight: 400;
+    font-family: "inspiration",serif;
     font-size: 30px;
+    font-weight: 600;
     color: rgb(180, 180, 180);
     text-align: center;
     margin-bottom: 16px;
@@ -38,7 +38,7 @@
 
 
 .what-i-offer-grid .skill-set{
-    background-color: #4e4306;
+    background-color:  rgb(21, 19, 19) ;
     width: 300px;
     margin: 0 auto;
     padding: 20px 20px;
@@ -47,7 +47,7 @@
 }
 .skill-set h2{
     font-weight: 600;
-    color: black;
+    color: rgb(194, 194, 194);
     font-size: 20px;
 }
 .partitions .skill-icons{
@@ -74,64 +74,40 @@
     font-size: 14px;
     font-weight: 500;
 }
-.skill-icons .fa-html5{
+.skill-icons .fahtml{
     color: #F1662A;
 }
-.skill-icons .fa-css3-alt{
+.skill-icons .facss{
     color: #33A9DC;
 }
-.skill-icons .fa-js{
+.skill-icons .fajs{
     color: #F5DE19;
 }
-.skill-icons .fa-node-js{
+.skill-icons .fanode{
     color: #21A366;
 }
-.skill-icons .fa-react{
+.skill-icons .fareact{
     padding: 2px;
     color: #21A366;
     background-color: white;
     border-radius: 50%;
 }
-.skill-icons .fa-database{
+.skill-icons .fadatabase{
     color: #bdbfbf;
 }
-.skill-icons .fa-git-alt{
+.skill-icons .fagit{
    color: white;
 }
 
-
-
-
-
-
-.partitions .call-to-action-btn{
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 105px;
-    height: 30px;
-    background-color: #110F01;
-    color: #E3C103;
-    border: 1px solid #EFCE16;
-    border-radius: 10px;
-}
-.partitions .call-to-action-btn:hover{
-    background-color: #DEBE0D;
-    color: black;
-    border: 1px solid black;
-}
-
-
 .certeficates{
     height: 78vh;
-    background-color: #777777;
+    background-color:  rgb(21, 19, 19);
 }
 .certeficates img{
     width: 150px;
     padding: 18px 16px;
     margin: 20px 0;
-    background-color: #888787;
+    background-color: rgb(94, 94, 94);
     display: block; /* Removes the default gap around images */ 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9); /* Adds the shadow */
 }
@@ -142,23 +118,25 @@
     transition: all 0.3s ease-in-out;
 }
 .certeficates h2{
-    font-family: "Irish Grover", serif;
-    font-size: 30px;
-    padding: 48px 0 8px;
+    font-family: "inspiration",serif;
+    font-size: 38px;
+    font-weight: 600;
+    color:rgb(194, 194, 194);
+    padding: 48px 0 2px;
     text-align: center;
-    font-weight: 700;
 }
 .certeficates p{
-    font-family: "Irish Grover", serif;
+    color:rgb(194, 194, 194);
+    font-family:  "inspiration",serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
 }
 .scrollable{
     display: flex;
     align-items: center;
     width: 72%;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 .proof-images{
     padding: 0 16px;
@@ -173,9 +151,10 @@
     border: none;
     background-color: transparent;
 }
-.scrollable .fa-solid{
+.scrollable .fasolid{
     font-size: 50px;
-    box-shadow: 3px 5px rgb(0,0,0,0.2);
+    color: rgb(176, 176, 176);
+    box-shadow: 3px 5px rgb(0,0,0,0.7);
 }
 
 @media(max-width:1090px){
