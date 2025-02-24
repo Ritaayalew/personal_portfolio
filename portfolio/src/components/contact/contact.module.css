@@ -1,11 +1,13 @@
 .black{
     background-color: black;
-    margin: -60px;
-    padding: 50px; 
+    padding-top: 50px;
+    margin-top: -60px;
+    padding-bottom: 10px; 
+    width: 100%;
 }
 
 .small-box{
-    background-color: #191918 ; 
+    background-color: #121212 ; 
     border: 1px solid #D8BA13;
     width: 240px;
     height: 220px;
@@ -15,24 +17,30 @@
     box-shadow: 6px 8px 4px rgb(0,0,0,0.5);
 }
 .small-box h2{
+    color:rgb(194, 194, 194);
+    font-family:  "inspiration",serif;
     text-align: center;
+    font-size: 25px;
+    font-weight: 600;
     margin: 30px 0 12px;
-    font-family: "Irish Grover", serif;
+    /* font-family: "Irish Grover", serif; */
 }
 .small-box p{
     text-align: center;
     padding: 0 16px;
 }
 .contact{
-    padding: 36px 25px;
+    padding: 36px 10px 30px;
     width: 410px;
     height: 370px;
-    background-color: rgb(231, 229, 229);
+    background-color: rgb(211, 211, 211);
     margin: 0 auto 56px;
 }
 .contact h1{
-    font-family: "Irish Grover", serif;
-    font-size: 30px;
+    font-family:  "inspiration",serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -60,14 +68,20 @@
 .icons .fab{
     font-size: 22px;
 }
-.icons .fa-linkedin{
+.icons .falinkedin{
     color: #3CA9C1;
+    font-size: 22px;
 }
-.icons .fa-github{
+.icons .fagithub{
     color: black;
+    font-size: 22px;
 }
-.icons .fa-instagram{
+.icons .fainstagram{
     color: #AA6B95;
+    font-size: 22px;
+}
+.icons .fatelegram{
+    font-size: 22px;
 }
 @media(max-width:550px){
     .main .contact{

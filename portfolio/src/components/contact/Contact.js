@@ -29,16 +29,16 @@ const Contact = () => {
 
         <div className={styles.icons}>
           <a href="https://www.linkedin.com/in/rita-ayalew-354802308/" aria-label="Linkedin">
-            <i className="fab fa-linkedin" aria-hidden="true"></i>
+            <i className={`fab fa-linkedin ${styles.falinkedin}`} aria-hidden="true"></i>
           </a>
           <a href="https://github.com/Ritaayalew" aria-label="Github">
-            <i className="fab fa-github" aria-hidden="true"></i>
+            <i className={`fab fa-github ${styles.fagithub}`} aria-hidden="true"></i>
           </a>
           <a href="https://www.instagram.com/pomita90" aria-label="Instagram">
-            <i className="fab fa-instagram" aria-hidden="true"></i>
+            <i className={`fab fa-instagram ${styles.fainstagram}`} aria-hidden="true"></i>
           </a>
           <a href="https://t.me/poetryyanduuuu" aria-label="Telegram">
-            <i className="fab fa-telegram" aria-hidden="true"></i>
+            <i className={`fab fa-telegram ${styles.fatelegram}`} aria-hidden="true"></i>
           </a>
         </div>
       </section>
