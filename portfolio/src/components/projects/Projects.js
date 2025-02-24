@@ -21,7 +21,7 @@ const Projects = () => {
             </div>
 
             <div className={styles.project}>
-                <a href="https://www.amazon.com/">
+                <a href="https://novemb-f2496.web.app/">
                     <img src={pic2} alt="Amazon Clone"/>
                 </a>
                 <h3>Amazon Clone</h3>

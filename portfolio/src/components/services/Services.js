@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './services.module.css';
 
 import certeficate1 from "../../images/certeficate-1.png";
@@ -10,6 +10,21 @@ import certeficate6 from "../../images/certeficate-6.png";
 import Button from '../get-in-touch-btn/Button';
 
 const Services = () => {
+  const proofImagesRef = useRef(null);
+
+  const leftClickHandler=()=>{
+    proofImagesRef.current.scrollBy({
+      left:-300,
+      behavior:"smooth"
+  })
+  }
+  const rightClickHandler=()=>{
+    proofImagesRef.current.scrollBy({
+      left:300,
+      behavior:"smooth"
+  })
+  }
+
   return (
     <div>
       <section className={styles['what-i-offer-grid']}>
@@ -68,8 +83,8 @@ const Services = () => {
         <h2>Certeficates</h2>
         <p>Qualifications over the years.</p>
         <div className={styles.scrollable}>
-          <button className={styles['left-btn']}><i className={`fa-solid fa-angle-left ${styles.fasolid}`}></i></button>
-          <div className={styles['proof-images']}> 
+          <button onClick={leftClickHandler} className={styles['left-btn']}><i className={`fa-solid fa-angle-left ${styles.fasolid}`}></i></button>
+          <div ref={proofImagesRef} className={styles['proof-images']}> 
             <img src={certeficate1} alt="certeficate-1"/>
             <img src={certeficate2} alt="certeficate-2"/>
             <img src={certeficate3} alt="certeficate-3"/>
@@ -78,7 +93,7 @@ const Services = () => {
             <img src={certeficate6} alt="certeficate-6"/>
           </div>
           
-          <button className={styles['right-btn']}><i className={`fa-solid fa-angle-right ${styles.fasolid}`}></i></button>
+          <button onClick={rightClickHandler} className={styles['right-btn']}><i className={`fa-solid fa-angle-right ${styles.fasolid}`}></i></button>
         </div>
       </section>
     </div>

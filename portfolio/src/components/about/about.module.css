@@ -75,7 +75,7 @@
     width: 100%; 
     height: 100%; 
     /* backdrop-filter: blur(0.1px); */
-    background-color: rgba(0, 0, 0, 0.86); /* Black color with 50% transparency */ 
+    background-color: rgba(0, 0, 0, 0.82); /* Black color with 50% transparency */ 
     z-index: 1; /* Places the overlay above the background image */ 
 }
 .aboutMe .hobbies > *{
