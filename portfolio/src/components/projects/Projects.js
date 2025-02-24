@@ -5,6 +5,7 @@ import pic1 from "../../images/project-1.png";
 import pic2 from "../../images/project-2.png";
 import pic3 from "../../images/project-3.png";
 import { Link } from 'react-router-dom';
+import Button from '../get-in-touch-btn/Button';
 
 const Projects = () => {
   return (
@@ -40,9 +41,17 @@ const Projects = () => {
         <section className={styles.collaboration}>
             <h2>Collaborate with Me</h2>
             <p>If you're excited about building innovative web solutions and think we could create something amazing together, let's connect. I'm always open to new projects and collaborations.</p>
-                <Link to="contact">
-                    <button className={styles.callToActionBtn}>Get in Touch</button>
-                </Link>
+                <Button/>
+        </section>
+        <section className={styles.collaboration}>
+            <h2>Collaborate with Me</h2>
+            <p>If you're excited about building innovative web solutions and think we could create something amazing together, let's connect. I'm always open to new projects and collaborations.</p>
+                <Button/>
+        </section>
+        <section className={styles.collaboration}>
+            <h2>Collaborate with Me</h2>
+            <p>If you're excited about building innovative web solutions and think we could create something amazing together, let's connect. I'm always open to new projects and collaborations.</p>
+                <Button/>
         </section>
     </div>
   );
