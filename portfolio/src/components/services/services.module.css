@@ -14,9 +14,9 @@
     justify-content: center;
 }
 .partitions h2{
-    font-family: "inspiration",serif;
-    font-size: 30px;
-    font-weight: 600;
+    font-family: 'SparkleShine',serif;
+    font-size: 46px;
+    font-weight: 500;
     color: rgb(180, 180, 180);
     text-align: center;
     margin-bottom: 16px;
@@ -46,9 +46,8 @@
     box-shadow: inset 8px 10px 20px rgba(0, 0, 0, 0.5);
 }
 .skill-set h2{
-    font-weight: 600;
     color: rgb(194, 194, 194);
-    font-size: 20px;
+    font-size: 35px;
 }
 .partitions .skill-icons{
     display: grid;
@@ -118,19 +117,20 @@
     transition: all 0.3s ease-in-out;
 }
 .certeficates h2{
-    font-family: "inspiration",serif;
-    font-size: 38px;
-    font-weight: 600;
+    font-family: 'SparkleShine',serif;
+    font-size: 56px;
+    font-weight: 500;
     color:rgb(194, 194, 194);
-    padding: 48px 0 2px;
+    padding: 48px 0 0px;
     text-align: center;
 }
 .certeficates p{
     color:rgb(194, 194, 194);
-    font-family:  "inspiration",serif;
+    font-family: 'SparkleShine',serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 500;
+    margin-top: -10px;
 }
 .scrollable{
     display: flex;

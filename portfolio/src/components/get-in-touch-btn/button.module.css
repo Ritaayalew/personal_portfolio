@@ -14,8 +14,9 @@
     cursor: pointer;
 }
 .callToActionBtn:hover{
-    background-color: #6e5e05;
-    /* color: black; */
+    background-color: #8a7604;
+    color: black;
+    font-weight: 700;
     border: 3px solid #6e5e05;
 }
 .callToActionBtn:focus{
