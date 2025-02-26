@@ -10,7 +10,7 @@ const Home = () => {
     <div>
         <div className={styles.gridContainer}>
 
-            <div className={styles.partitions}>
+            <div className={`${styles.partitions} ${styles.single}`}>
                 <h1>Rita <span className={styles.stairStyle}>Ayalew</span></h1>
                 <h2>Crafting the Web, <span className={styles.stairStyle}>One Pixel at a Time</span></h2>
                 <div className={styles.icons}>

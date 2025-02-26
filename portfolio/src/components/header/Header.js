@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './header.module.css';
 import { Link } from 'react-router-dom';
+import DarkMode from '../DarkMode/DarkMode';
 
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -56,6 +57,7 @@ const Header = () => {
             <i className={`fa fa-bars ${styles.faBars}`}></i>
           </button>
         </nav>
+        <DarkMode className={styles.switch}/>
       </div>
 
       {showSidebar && (
@@ -88,7 +90,10 @@ const Header = () => {
           </div>
         </>
       )}
+
+      
     </div>
+    
   );
 };
 

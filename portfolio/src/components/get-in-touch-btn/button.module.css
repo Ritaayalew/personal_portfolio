@@ -5,7 +5,7 @@
     align-items: center;
     width: 112px;
     height: 32px;
-    background-color: #110F01;
+    background-color: var(--btn_background);
     color: white;
     border: 1px solid #EFCE16;
     border-radius: 14px;
@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 .callToActionBtn:hover{
-    background-color: #8a7604;
+    background-color: var(--btn_hover);
     color: black;
     font-weight: 700;
     border: 3px solid #6e5e05;

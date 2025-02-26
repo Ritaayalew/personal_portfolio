@@ -1,7 +1,7 @@
 .gridContainer h1, .gridContainer h2{
     font-family: "inspiration",serif;
-    color: rgb(183, 183, 183);
-    font-weight: 500;
+    color: var(--body_color);
+    font-weight: var(--partitions_weight);
 }
 .gridContainer img{
     filter: grayscale(100%);
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3CA9C1;
 }
 .partitions{
     padding: 14px 8px;
@@ -30,15 +31,21 @@
 .partitions h2{
     font-size: 32px;
     margin-left: 144px;
+    
 }
+.single {
+    background-color:var(--box_background);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
 .stairStyle{          /* ensure a stair- style effect*/
     display: block;
     padding-left: 48px;
     margin-top: -5px;
 }
 .gridContainer{
-    /* background-image: linear-gradient(-45deg, black 78%,  rgb(46, 46, 46), black); */
-    background-color: black;
+    background-image: var(--body_image);
+    background-color: var(--body_background);
     padding: 32px 130px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
@@ -48,29 +55,37 @@
 
 
 
+
 .partitions .icons{
     width: 80px;
     margin: 50px auto 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* background-color: black; */
+    border-radius: 5px;
+    padding: 8px;
 }
 .icons .fabb{
     font-size: 19px;
 }
 .icons .falinkedin{
     color: #3CA9C1;
+    background-color: black;
 }
 .icons .fagithub{
     color: #FFFFFF;
+    background-color: black;
 }
 .icons .fainstagram{
     color: #AA6B95;
+    background-color: black;
 }
 
 
 .partitions p{
+    font-weight: var(--partitions_weight);
     margin: 0 40px 30px;
-    color: rgb(183, 183, 183);
+    color: var(--partitions_color);
     text-align: center;
 }
