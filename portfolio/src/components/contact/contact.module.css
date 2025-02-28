@@ -1,5 +1,5 @@
 .black{
-    background-color: black;
+    background-color: var(--contact_background);
     padding-top: 50px;
     margin-top: -60px;
     padding-bottom: 10px; 
@@ -7,17 +7,17 @@
 }
 
 .small-box{
-    background-color: #121212 ; 
+    background-color: var(--contact_box); 
     border: 1px solid #D8BA13;
     width: 240px;
     height: 220px;
     margin: 48px auto 10px;
-    color: rgb(212, 212, 212);
+    color: var(--aboutP_color);
     padding: 10px;
     box-shadow: 6px 8px 4px rgb(0,0,0,0.5);
 }
 .small-box h2{
-    color:rgb(194, 194, 194);
+    color:var(--about_color);
     font-family:  "inspiration",serif;
     text-align: center;
     font-size: 25px;

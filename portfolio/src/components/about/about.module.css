@@ -5,7 +5,8 @@
     height: 80vh;
     width: 50%;
     padding-bottom: 20px;
-    background-color: rgb(5, 4, 4);    
+    background-image: var(--about_gradient); 
+    background-color: var(--about_background);  
 }
 .partition .imageContainer{
     width: 330px;
@@ -45,16 +46,17 @@
 }
 .partition h2{
     font-family: 'SparkleShine',serif;
-    font-size: 42px;
     font-weight: 500;
+    font-size: 42px;
     text-align: center;
     margin: 16px 0;
-    color: rgb(210, 210, 210);
+    color: var(--about_color);
 }
 .partition p{
     margin: 0 16%;
     text-align: center;
-    color: rgb(213, 213, 213);
+    color: var(--aboutP_color);
+    font-size: var(--about_font);
 }
 .aboutMe .hobbies{
     position: relative;
@@ -74,8 +76,8 @@
     left: 0; 
     width: 100%; 
     height: 100%; 
-    /* backdrop-filter: blur(0.1px); */
-    background-color: rgba(0, 0, 0, 0.82); /* Black color with 50% transparency */ 
+    backdrop-filter: var(--hobbies_filter);
+    background-color: var(--hobbies_background) ;/* Black color with 50% transparency */ 
     z-index: 1; /* Places the overlay above the background image */ 
 }
 .aboutMe .hobbies > *{
@@ -87,7 +89,7 @@
 }
 .letsConnect{
     padding: 20px 0;
-    background-color: #090808;
+    background-color: var(--connect-background);
     height: 86vh;
 }
 .letsConnect .circle{
@@ -96,7 +98,8 @@
     height: 400px;
     border-radius: 50%;
     padding: 15px;
-    background-color: black;
+    background-color: var(--about_background);
+    background-image: var(--about_gradient); 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,7 +109,7 @@
 .letsConnect .circle h2{
     text-align: center;
     margin: -30px 0 16px;
-    color: rgb(184, 184, 184);
+    color: var(--about_color);
     font-family: 'SparkleShine',serif;
     font-size: 46px;
     font-weight: 500;
@@ -115,7 +118,8 @@
 .letsConnect .circle p{
     margin: 5px 55px 40px;
     text-align: center;
-    color: rgb(188, 188, 188);
+    font-size: var(--about_font);
+    color: var(--aboutP_color);
 }
 
 @media (max-width:768px) {

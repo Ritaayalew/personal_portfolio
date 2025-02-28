@@ -1,11 +1,11 @@
 .main{
-    background-color:  rgb(8, 7, 7) ;
+    background-color:  var(--projects_background) ;
 }
 .main h2{
     font-family: 'SparkleShine',serif;
     font-size: 42px;
     font-weight: 500;
-    color: rgb(180, 180, 180);
+    color: var(--about_color);
     text-align: center;
     padding: 48px 0 32px ;
 }
@@ -44,18 +44,18 @@
 }
 .collaboration{
     height: 54vh;
-    background-image: linear-gradient(to bottom,black 60%,rgb(37, 37, 37)) ;
+    background-image: var(--collaboration_gradient) ;
 }
 .collaboration h2{
     font-family: 'SparkleShine',serif;
     font-size: 46px;
     font-weight: 500;
-    color:rgb(194, 194, 194);
+    color:var(--about_color);
     text-align: center;
     padding: 50px 0 25px; 
 }
 .collaboration p{
-    color: rgb(194, 194, 194);
+    color: var(--aboutP_color);
     text-align: center;
     padding: 0 27%;
     font-size: 17px;
