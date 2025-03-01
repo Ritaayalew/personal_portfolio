@@ -10,7 +10,7 @@
     background-color: var(--contact_box); 
     border: 1px solid #D8BA13;
     width: 240px;
-    height: 220px;
+    height: 230px;
     margin: 48px auto 10px;
     color: var(--aboutP_color);
     padding: 10px;
@@ -30,10 +30,10 @@
     padding: 0 16px;
 }
 .contact{
-    padding: 36px 10px 30px;
+    padding: 15px 10px 30px;
     width: 410px;
     height: 370px;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(232, 232, 232);
     margin: 0 auto 56px;
 }
 .contact h1{
@@ -49,39 +49,77 @@
     display: flex;
     align-items: center;
     margin: 0 auto 8px;
+    padding-left: 90px;
 }
 .contact-method p{
     margin-left:  12px;
 }
 .contact .descrption{
     text-align: center;
-    margin: 70px 0 20px;
+    margin: 30px 0 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+.each{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.each label{
+    font-weight: bold;
+}
+.each input{
+    padding: 5px;
+    border: 1px solid rgb(9, 9, 9);
+    min-width: 240px;
+    min-height: 15px;
+}
+.each textarea{
+    padding: 5px;
+    border: 1px solid rgb(9, 9, 9);
+    margin-right: 17px;
+    min-width: 240px;
+    min-height: 60px;
+}
+.btn{
+    padding: 8px 50px;
+    margin: 10px 0 0 35px;
+    color: rgb(234, 234, 234);
+    background-color: rgb(38, 38, 38);
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    
 }
 
-.contact .icons{
-    width: 108px;
+.icons{
+    width: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
-}
-.icons .fab{
-    font-size: 22px;
+    margin: 20px auto
 }
 .icons .falinkedin{
     color: #3CA9C1;
-    font-size: 22px;
+    font-size: 18px;
 }
 .icons .fagithub{
-    color: black;
-    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
 }
 .icons .fainstagram{
     color: #AA6B95;
-    font-size: 22px;
+    font-size: 18px;
 }
 .icons .fatelegram{
-    font-size: 22px;
+    font-size: 18px;
+    color: #4b808d;
 }
 @media(max-width:550px){
     .main .contact{
