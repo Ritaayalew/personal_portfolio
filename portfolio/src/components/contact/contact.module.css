@@ -97,6 +97,9 @@
     cursor: pointer;
     
 }
+.btn:hover{
+    transform: scale(1.08);
+}
 
 .icons{
     width: 90px;

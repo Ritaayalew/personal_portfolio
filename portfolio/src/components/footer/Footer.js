@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./footer.module.css";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
             <p>
                 Feel free to reach out via 
                 <span>
-                    <a href="./src/contact.html" > Contact</a>
+                    <Link to={"/contact"}> Contact</Link>
                 </span>
             </p> 
             <p>© 2024 Rita Ayalew. All rights reserved.</p>
