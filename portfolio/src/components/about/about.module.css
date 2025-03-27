@@ -47,7 +47,7 @@
 .partition h2{
     font-family: 'SparkleShine',serif;
     font-weight: 500;
-    font-size: 42px;
+    font-size: var(--about_h2_font);
     text-align: center;
     margin: 16px 0;
     color: var(--about_color);
@@ -57,6 +57,7 @@
     text-align: center;
     color: var(--aboutP_color);
     font-size: var(--about_font);
+    font-weight: var(--partitions_weight);
 }
 .aboutMe .hobbies{
     position: relative;
@@ -111,7 +112,7 @@
     margin: -30px 0 16px;
     color: var(--about_color);
     font-family: 'SparkleShine',serif;
-    font-size: 46px;
+    font-size: var(--connect_h2_font);
     font-weight: 500;
 
 }
@@ -120,6 +121,7 @@
     text-align: center;
     font-size: var(--about_font);
     color: var(--aboutP_color);
+    font-weight: var(--partitions_weight);
 }
 
 @media (max-width:768px) {

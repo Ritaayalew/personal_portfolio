@@ -17,7 +17,7 @@
 }
 .partitions h2{
     font-family: 'SparkleShine',serif;
-    font-size: 46px;
+    font-size: var(--connect_h2_font);
     font-weight: 500;
     color: var(--about_color);
     text-align: center;

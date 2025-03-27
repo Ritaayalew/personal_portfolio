@@ -1,3 +1,6 @@
+*{
+    transition: all 0.3s ease-in-out;
+}
 :root {
     --body_background:black;
     --body_color:rgb(183, 183, 183);
@@ -31,6 +34,11 @@
     --font_family:'SparkleShine',serif;
     --about_gradient:none;
     --offering_gradient:none;
+    --about_h2_font:42px;
+    --connect_h2_font:46px;
+    --sideBar_bg:rgb(16, 14, 14);
+    --sideBar_border:1px solid #BCA20D;
+    --sideBarLi_border: 1px solid #847209;
 }
 
 
@@ -57,7 +65,7 @@
     --hobbies_filter:blur(3px);
     --about_font:17px;
     --connect-background:#a5a5a5;
-    --skill_background:rgb(175, 173, 169);
+    --skill_background:rgb(156, 156, 156);
     --certeficates_background:rgb(165, 165, 165);
     --certeficates_img_background:rgb(202, 202, 202);
     --scroll_btn_color:rgb(27, 27, 27);
@@ -68,6 +76,11 @@
     --contact_box:#adadad ;
     --font_family:"Irish Grover", serif;
     --offering_gradient:linear-gradient(to bottom, rgb(110, 110, 110),rgb(214, 214, 214), rgb(124, 124, 124));
+    --about_h2_font:45px;
+    --connect_h2_font:48px;
+    --sideBar_bg:rgb(152, 152, 152);
+    --sideBar_border:1px solid #3a3204;
+    --sideBarLi_border: 1px solid #433a08;
 }
 
 
