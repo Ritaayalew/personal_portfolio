@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'SparkleShine';
+  src: url('./fonts/Sparkle Shine.otf') format('opentype'),
+       url('./fonts/Sparkle Shine.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+
+
+

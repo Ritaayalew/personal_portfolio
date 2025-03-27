@@ -1,0 +1,28 @@
+.callToActionBtn{
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 32px;
+    background-color: var(--btn_background);
+    color: white;
+    border: 1px solid #EFCE16;
+    border-radius: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.callToActionBtn:hover{
+    background-color: var(--btn_hover);
+    color: black;
+    font-weight: 700;
+    border: 3px solid #6e5e05;
+}
+.callToActionBtn:focus{
+    border: none;
+    color: white;
+}
+.link{
+    text-decoration: none;
+}

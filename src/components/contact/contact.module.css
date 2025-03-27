@@ -1,0 +1,162 @@
+.black{
+    background-color: var(--contact_background);
+    padding-top: 50px;
+    margin-top: -60px;
+    padding-bottom: 10px; 
+    width: 100%;
+}
+
+.small-box{
+    background-color: var(--contact_box); 
+    border: 1px solid #D8BA13;
+    width: 240px;
+    height: 230px;
+    margin: 48px auto 10px;
+    color: var(--aboutP_color);
+    padding: 10px;
+    box-shadow: 6px 8px 4px rgb(0,0,0,0.5);
+}
+.small-box h2{
+    color:var(--about_color);
+    font-family:  "inspiration",serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 0 12px;
+    /* font-family: "Irish Grover", serif; */
+}
+.small-box p{
+    text-align: center;
+    padding: 0 16px;
+}
+.contact{
+    padding: 15px 10px 30px;
+    width: 410px;
+    height: 370px;
+    background-color: rgb(232, 232, 232);
+    margin: 0 auto 56px;
+}
+.contact h1{
+    font-family: 'SparkleShine',serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-method{
+    max-width: 308px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 8px;
+    padding-left: 90px;
+}
+.contact-method p{
+    margin-left:  12px;
+}
+.contact .descrption{
+    text-align: center;
+    margin: 30px 0 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+.each{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.each label{
+    font-weight: bold;
+}
+.each input{
+    padding: 5px;
+    border: 1px solid rgb(9, 9, 9);
+    min-width: 240px;
+    min-height: 15px;
+}
+.each textarea{
+    padding: 5px;
+    border: 1px solid rgb(9, 9, 9);
+    margin-right: 17px;
+    min-width: 240px;
+    min-height: 60px;
+}
+.btn{
+    padding: 8px 50px;
+    margin: 10px 0 0 35px;
+    color: rgb(234, 234, 234);
+    background-color: rgb(38, 38, 38);
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    transform: scale(1.08);
+}
+
+.icons{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto
+}
+.icons .falinkedin{
+    color: #3CA9C1;
+    font-size: 18px;
+}
+.icons .fagithub{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.icons .fainstagram{
+    color: #AA6B95;
+    font-size: 18px;
+}
+.icons .fatelegram{
+    font-size: 18px;
+    color: #4b808d;
+}
+@media(max-width:550px){
+    .main .contact{
+        width: 75%;
+    }
+    .main .small-box{
+        width: 214px;
+    }
+}
+@media(min-width:768px){
+    .main{
+        width: 700px;
+        margin: 55px auto;
+        display: flex;
+        align-items: center;
+    }
+    .main .small-box{
+        margin-bottom: 150px;
+        position: relative;
+        right: -40px;
+        z-index: 3;
+    }
+}
+@media(max-width:1000px) and (min-width:768px){
+    .main{
+        padding-right: 40px;
+    }
+    .main .small-box{
+        width: 220px;
+        height: 220px;
+        right: -50px;
+    }
+    .main .contact{
+        width: 370px;
+        height: 360px;
+    }
+}
